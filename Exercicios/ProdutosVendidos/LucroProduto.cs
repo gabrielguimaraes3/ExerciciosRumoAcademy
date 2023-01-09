@@ -41,7 +41,7 @@ namespace ExerciciosDia04_01.Exercicios
                 Console.WriteLine("Quantidade vendida deste produto: ");
                 produto.quantidadeVendida = Convert.ToInt32(Console.ReadLine());
 
-                produto.lucroProduto = produto.precoVenda * produto.quantidadeVendida;
+                produto.lucroProduto = (produto.precoVenda - produto.precoCompra) * produto.quantidadeVendida;
 
                 Console.WriteLine("Gostaria de contiinuar cadastrando produtos? Se sim digite (S), se não digite (N)");
                 cadastrarProduto = Console.ReadLine();
