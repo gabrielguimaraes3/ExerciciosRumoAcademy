@@ -32,7 +32,7 @@ namespace ExerciciosDia04_01.Exercicios._04NomesIdades
             var pessoas = new List<Pessoa>();
 
 
-            for (int quantidadePEssoas = 0; quantidadePEssoas < 3; quantidadePEssoas++)
+            for (int quantidadePEssoas = 0; quantidadePEssoas < 10; quantidadePEssoas++)
             {
                 Pessoa pessoa = new Pessoa();
 
